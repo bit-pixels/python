@@ -23,7 +23,7 @@ while True:
     score += que(questions[3], "B")
     score += que(questions[4], "C")
     score += que(questions[5], "A")
-    print("Quiz completed. You scored {}/5 ({}%).".format(score, score/5*100))
+    print("Quiz completed. You scored {}/5 ({:.3f}%).".format(score, score/5*100))
     play_again = input("Play again? (Yes/No):")
     if play_again.lower != "yes":
         print("Bye!")

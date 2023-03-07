@@ -1,8 +1,8 @@
 import random as r
 
-while True:
+while True: # This allows for a replay without restarting
     choices = ["rock", "paper", "scissors"]
-    ai = r.choice(choices)
+    ai = r.choice(choices) # I have opted for r.choice instead of r.randint as it allows the user input to be 
     player = None
 
     while player not in choices:
